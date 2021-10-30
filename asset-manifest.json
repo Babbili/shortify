@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Shortify/static/css/main.7af630b9.chunk.css",
+    "main.js": "/Shortify/static/js/main.b6b5ec98.chunk.js",
+    "main.js.map": "/Shortify/static/js/main.b6b5ec98.chunk.js.map",
+    "runtime-main.js": "/Shortify/static/js/runtime-main.3d77ac2f.js",
+    "runtime-main.js.map": "/Shortify/static/js/runtime-main.3d77ac2f.js.map",
+    "static/js/2.9233c099.chunk.js": "/Shortify/static/js/2.9233c099.chunk.js",
+    "static/js/2.9233c099.chunk.js.map": "/Shortify/static/js/2.9233c099.chunk.js.map",
+    "index.html": "/Shortify/index.html",
+    "static/css/main.7af630b9.chunk.css.map": "/Shortify/static/css/main.7af630b9.chunk.css.map",
+    "static/js/2.9233c099.chunk.js.LICENSE.txt": "/Shortify/static/js/2.9233c099.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Shortify/static/media/bg-shorten-mobile.1d6f566b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d77ac2f.js",
+    "static/js/2.9233c099.chunk.js",
+    "static/css/main.7af630b9.chunk.css",
+    "static/js/main.b6b5ec98.chunk.js"
+  ]
+}
