@@ -5,6 +5,7 @@ function Form() {
     let shortCode = 'https://api.shrtco.de/v2/shorten?url='
     const [linkValue, setLinkValue] = useState('')
     const [resultLink, setResultLink] = useState('')
+    const [loading, setLoading] = useState(false)
     const [showResult, setShowResult] = useState(false)
     const [copied, setCopied] = useState(false)
 
@@ -15,6 +16,7 @@ function Form() {
 
     function shortenLink(e) {
         e.preventDefault()
+        setLoading(true)
         let link = linkValue.toString()
         fetch(shortCode + link)
             .then(res => {
@@ -53,7 +55,11 @@ function Form() {
             <div className={`shorten__result__${showResult}`}>
                 <p>{linkValue}</p>
                 <div className="shorten__result__link">
+                    { loading && !resultLink ?
+                    <p>Shortifying ... </p>
+                    :
                     <p>{resultLink}</p>
+                    }
                     <svg
                         onClick={() => copyLink()}
                         xmlns="http://www.w3.org/2000/svg"
